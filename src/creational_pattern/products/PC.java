@@ -1,6 +1,6 @@
-package products;
+package creational_pattern.products;
 
-import components.*;
+import creational_pattern.components.*;
 
 public class PC {
     private final CPU cpu;

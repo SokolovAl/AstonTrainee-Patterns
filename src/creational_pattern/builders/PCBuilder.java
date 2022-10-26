@@ -1,7 +1,7 @@
-package builders;
+package creational_pattern.builders;
 
-import components.*;
-import products.PC;
+import creational_pattern.components.*;
+import creational_pattern.products.PC;
 
 public class PCBuilder implements PersonalComputer {
     private CPU cpu;

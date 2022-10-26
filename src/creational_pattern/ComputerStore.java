@@ -1,6 +1,8 @@
-import builders.PCBuilder;
-import director.Seller;
-import products.PC;
+package creational_pattern;
+
+import creational_pattern.builders.PCBuilder;
+import creational_pattern.director.Seller;
+import creational_pattern.products.PC;
 
 public class ComputerStore {
     public static void main(String[] args) {

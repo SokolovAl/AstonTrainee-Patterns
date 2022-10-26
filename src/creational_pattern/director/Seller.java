@@ -1,7 +1,7 @@
-package director;
+package creational_pattern.director;
 
-import builders.PCBuilder;
-import components.*;
+import creational_pattern.builders.PCBuilder;
+import creational_pattern.components.*;
 
 public class Seller {
 

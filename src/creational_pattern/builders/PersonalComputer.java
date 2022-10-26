@@ -1,6 +1,6 @@
-package builders;
+package creational_pattern.builders;
 
-import components.*;
+import creational_pattern.components.*;
 
 public interface PersonalComputer {
 

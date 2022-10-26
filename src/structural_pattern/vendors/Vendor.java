@@ -1,5 +1,5 @@
 package structural_pattern.vendors;
 
-interface Vendor {
-    boolean isAMD();
+public interface Vendor {
+    public void applyVendor();
 }

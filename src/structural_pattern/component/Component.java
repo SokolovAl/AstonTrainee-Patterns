@@ -1,9 +1,13 @@
 package structural_pattern.component;
 
-public interface Component {
-    void setVendor(String vendor);
+import structural_pattern.vendors.Vendor;
 
-    String getVendor();
+public abstract class Component {
+    protected Vendor vendor;
 
-    void printInfo();
+    public Component(Vendor vendor) {
+        this.vendor = vendor;
+    }
+
+    abstract public void applyVendor();
 }

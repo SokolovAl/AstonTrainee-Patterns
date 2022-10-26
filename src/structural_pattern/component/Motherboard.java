@@ -2,14 +2,14 @@ package structural_pattern.component;
 
 import structural_pattern.vendors.Vendor;
 
-public class CPU extends Component{
+public class Motherboard extends Component {
 
-    public CPU(Vendor vendor) {
+    public Motherboard(Vendor vendor) {
         super(vendor);
     }
 
     @Override
-    public void applyVendor( ) {
+    public void applyVendor() {
         vendor.applyVendor();
     }
 }
